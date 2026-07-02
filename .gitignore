@@ -35,3 +35,7 @@ Thumbs.db
 
 # 忽略嵌套的 git 仓库（如 obsidian-skills）
 .claude/skills/obsidian-skills/
+
+# 忽略 Claude Code 临时文件
+.claude/worktrees/
+.claudian/
