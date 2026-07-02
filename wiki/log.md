@@ -19,6 +19,22 @@ Navigation: [[index]] | [[hot]] | [[overview]]
 
 Append-only. New entries go at the TOP. Never edit past entries.
 
+---
+
+## [2026-07-02] scaffold | 408 考研知识库搭建
+
+- Source: N/A（从零搭建）
+- Summary: [[overview]]
+- 页面创建: [[overview]], [[index]], [[hot]]（更新）
+- 目录结构: wiki/数学/, wiki/英语/, wiki/政治/, wiki/408专业课/（含4个子目录）, wiki/concepts/, wiki/papers/, wiki/gaps/, wiki/goals/, wiki/resources/
+- 模板创建: _templates/ 下各类型模板（概念/真题/错题/目标/复盘等）
+- 关键决策: 采用 Mode E（Research）+ Mode D（Personal）组合模式，专为考研 408 设计
+- 下一步: 等待用户确定目标院校和科目后，开始导入教材和真题
+
+---
+
+## [2026-04-15] release | Claude SEO v1.9.0 Release Report
+
 Entry format: `## [YYYY-MM-DD] operation | Title`
 
 Parse recent entries: `grep "^## \[" wiki/log.md | head -10`

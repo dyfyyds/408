@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782961898307-16ulw1e0m",
+  "providerId": "claude",
+  "title": "请你构建知识库wiki",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1782961898314,
+  "updatedAt": 1782961996939,
+  "lastResponseAt": 1782961996939,
+  "sessionId": "f8bf524a-a101-4dd8-939c-a575df819d09",
+  "providerState": {
+    "providerSessionId": "f8bf524a-a101-4dd8-939c-a575df819d09"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 19423,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33792,
+    "contextWindow": 1000000,
+    "contextTokens": 53215,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}
