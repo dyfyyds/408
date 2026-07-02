@@ -1,0 +1,37 @@
+# 忽略潜在大文件 (GitHub 限制单个文件最大 100MB 超过会导致同步失败，如果确实需要同步PDF可以考虑手动复制到其他设备)
+*.pdf
+*.mp4
+*.zip
+
+# 忽略操作系统自动生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Obsidian 的缓存文件
+.obsidian/cache/
+
+# 忽略特定设备的工作区状态，这是避免多端冲突的关键！核心目标！
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+
+# 忽略其他不建议同步的文件
+.obsidian/daily-notes.json
+.obsidian/facets.json
+.obsidian/starred.json
+
+# 忽略插件的缓存和数据文件(可选，但推荐)
+.obsidian/plugins/*/data.json
+
+# 忽略垃圾箱文件夹
+.trash/
+
+# 忽略 .git 自身（不需要）
+.git
+
+# 可选：忽略临时文件
+*.tmp
+*.log
+
+# 忽略嵌套的 git 仓库（如 obsidian-skills）
+.claude/skills/obsidian-skills/
