@@ -39,3 +39,9 @@ Thumbs.db
 # 忽略 Claude Code 临时文件
 .claude/worktrees/
 .claudian/
+
+# 忽略本地 Agent / Codex 运行文件
+.agents/
+.codex/
+AGENTS.md
+.obsidian/graph.json
