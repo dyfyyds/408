@@ -1,11 +1,13 @@
 ---
 type: concept
 title: 总线与I/O系统
+subject: 408专业课
+chapter: 计算机组成原理
 complexity: intermediate
 domain: 计算机组成原理
 aliases: [总线, I/O, 中断, DMA, I/O接口]
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-07
 tags:
   - concept
   - 计算机组成原理
@@ -238,3 +240,10 @@ void interrupt_handler() {
 - 《计算机组成原理》白中英，第6、7章
 - 王道考研408《思维导图》· 第六章 总线、第七章 输入输出系统
 - 王道《计算机组成原理》考研复习指导
+
+## 系统补全（2026-07-07）
+
+- 本页拆分复习入口：总线看 [[wiki/408专业课/计算机组成原理/总线|总线]]，I/O 看 [[wiki/408专业课/计算机组成原理/输入输出系统|输入输出系统]]。
+- 总线做题抓：分类、仲裁、事务、同步/异步定时、带宽计算。
+- I/O 做题抓：[[wiki/concepts/计算机组成原理/IO接口|IO接口]]、[[wiki/concepts/计算机组成原理/IO方式|IO方式]]、[[wiki/concepts/计算机组成原理/DMA方式|DMA方式]]。
+- DMA 和中断的区别：中断方式的数据传送仍由 CPU 执行，DMA 数据块传送主要由 DMA 控制器接管。
