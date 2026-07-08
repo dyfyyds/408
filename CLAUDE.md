@@ -44,6 +44,7 @@ vault/
 
 - 所有笔记使用 YAML frontmatter
 - 使用 `[[wikilink]]` 关联页面
+- **更新/修改文件时，必须同步将文件头部 Frontmatter 中的 `updated` 字段更新为当前操作的日期**。
 - `.raw/` 放置原始资料，不修改
 - `wiki/log.md` 是追加日志，新条目在顶部
 - `wiki/hot.md` 在每次 ingest 后更新
