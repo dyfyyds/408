@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-07-08
+updated: 2026-07-09
 tags:
   - meta
   - log
@@ -20,6 +20,15 @@ Navigation: [[index]] | [[hot]] | [[overview]]
 Append-only. New entries go at the TOP. Never edit past entries.
 
 ---
+
+## 2026-07-09 ingest | 定点数与浮点数表示方法
+
+- Source: 27王道《计算机组成原理》第二章2.2.1节与2.3.1节
+- Created: [[wiki/concepts/计算机组成原理/定点数的表示|定点数的表示]]、[[wiki/concepts/计算机组成原理/浮点数的表示|浮点数的表示]]
+- Updated: [[wiki/concepts/计算机组成原理/_index|计算机组成原理概念索引]]、[[hot]]、[[log]]
+- Subject: 计算机组成原理
+- Key exam value: 补齐了有符号定点数表示中原/反/补/移码的公式和极值，理清了原码补码快速转换判定逻辑与补码能多表示一个最小负数（-128与-1.0）的原因；系统归纳了浮点数规格化（左规、右规、原/补码规格化判定的首位规律以及补码规格化中的-1/2与-1特例）和 IEEE 754 标准阶码偏置值、隐藏位与特殊数值对应规则，形成了完整的定点和浮点表示理论框架。
+- Next: 开启 2.2.2 定点数的运算（移位与加减、Booth乘法、除法）和 2.3.2 浮点数的运算 Ingest。
 
 ## 2026-07-08 supplement | 数制与编码完全对齐教材重构
 

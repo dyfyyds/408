@@ -2,7 +2,7 @@
 type: meta
 title: "计算机组成原理概念索引"
 created: 2026-07-05
-updated: 2026-07-07
+updated: 2026-07-09
 tags:
   - meta
   - index
@@ -33,7 +33,7 @@ related:
 | 模块 | 概念 |
 |---|---|
 | 总览 | [[wiki/concepts/计算机组成原理/计算机组成原理\|计算机组成原理]]、[[wiki/concepts/计算机组成原理/计算机系统概述\|计算机系统概述]] |
-| 数据表示与运算 | [[wiki/concepts/计算机组成原理/数制与编码\|数制与编码]]、[[wiki/concepts/计算机组成原理/校验码\|校验码]]、[[wiki/concepts/计算机组成原理/数据表示\|数据表示]]、[[wiki/concepts/计算机组成原理/定点数运算\|定点数运算]]、[[wiki/concepts/计算机组成原理/补码溢出判断\|补码溢出判断]]、[[wiki/concepts/计算机组成原理/浮点数运算\|浮点数运算]]、[[wiki/concepts/计算机组成原理/算术逻辑单元\|算术逻辑单元]] |
+| 数据表示与运算 | [[wiki/concepts/计算机组成原理/数制与编码\|数制与编码]]、[[wiki/concepts/计算机组成原理/校验码\|校验码]]、[[wiki/concepts/计算机组成原理/数据表示\|数据表示]]、[[wiki/concepts/计算机组成原理/定点数的表示\|定点数的表示]]、[[wiki/concepts/计算机组成原理/定点数运算\|定点数运算]]、[[wiki/concepts/计算机组成原理/补码溢出判断\|补码溢出判断]]、[[wiki/concepts/计算机组成原理/浮点数的表示\|浮点数的表示]]、[[wiki/concepts/计算机组成原理/浮点数运算\|浮点数运算]]、[[wiki/concepts/计算机组成原理/算术逻辑单元\|算术逻辑单元]] |
 | 存储系统 | [[wiki/concepts/计算机组成原理/存储器\|存储器]]、[[wiki/concepts/计算机组成原理/存储器层次结构\|存储器层次结构]]、[[wiki/concepts/计算机组成原理/主存储器\|主存储器]]、[[wiki/concepts/计算机组成原理/主存与CPU连接\|主存与CPU连接]]、[[wiki/concepts/计算机组成原理/外部存储器\|外部存储器]]、[[wiki/concepts/计算机组成原理/Cache原理\|Cache原理]]、[[wiki/concepts/计算机组成原理/虚拟存储器\|虚拟存储器]] |
 | 指令系统 | [[wiki/concepts/计算机组成原理/指令系统\|指令系统]]、[[wiki/concepts/计算机组成原理/寻址方式\|寻址方式]]、[[wiki/concepts/计算机组成原理/机器级代码表示\|机器级代码表示]]、[[wiki/concepts/计算机组成原理/CISC与RISC\|CISC与RISC]] |
 | 中央处理器 | [[wiki/concepts/计算机组成原理/CPU结构\|CPU结构]]、[[wiki/concepts/计算机组成原理/指令执行过程\|指令执行过程]]、[[wiki/concepts/计算机组成原理/数据通路\|数据通路]]、[[wiki/concepts/计算机组成原理/控制器\|控制器]]、[[wiki/concepts/计算机组成原理/微程序控制器\|微程序控制器]]、[[wiki/concepts/计算机组成原理/异常与中断\|异常与中断]]、[[wiki/concepts/计算机组成原理/指令流水线\|指令流水线]]、[[wiki/concepts/计算机组成原理/多处理器\|多处理器]] |
