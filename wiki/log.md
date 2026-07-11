@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-07-10
+updated: 2026-07-11
 tags:
   - meta
   - log
@@ -18,6 +18,28 @@ related:
 Navigation: [[index]] | [[hot]] | [[overview]]
 
 Append-only. New entries go at the TOP. Never edit past entries.
+
+---
+
+## 2026-07-11 ingest | 基本运算部件与教材电路原图
+
+- Source: `.raw/408/教材PDF/27王道《计算机组成原理》高清带书签.pdf` 第 44-47 页、`.raw/408/计算机组成原理/第二章 数据的表示和运算.pdf`、`.raw/408/计算机组成原理/计算机组成原理第二章.xmind`
+- Created: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/基本运算部件|基本运算部件]]、`wiki/resources/计算机组成原理/基本运算部件/`
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/算术逻辑单元|算术逻辑单元]]、[[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/_index|第2章概念索引]]、[[wiki/concepts/计算机组成原理/_index|机组概念索引]]、[[wiki/408专业课/计算机组成原理/_index|机组索引]]、[[wiki/concepts/_index|概念索引]]、[[wiki/index|总索引]]、[[hot]]、[[log]]
+- Subject: 计算机组成原理·数据的表示和运算
+- Key exam value: 补齐 2.2.1 基本运算部件的逻辑门、全加器、串行/先行进位、带标志加法器、ALU 和移位器，并保留教材原图供对照。
+- Next: 继续从教材 2.2.2 定点数移位运算和 2.2.3 定点数加减运算补充题型推导。
+
+---
+
+## 2026-07-11 supplement | C语言整数类型及类型转换页面重构
+
+- Source: `.raw/408/教材PDF/27王道《计算机组成原理》高清带书签.pdf`、`.raw/408/计算机组成原理/第二章 数据的表示和运算.pdf`、`.raw/408/计算机组成原理/计算机组成原理第二章.xmind`
+- Created: 无
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/C语言中的整数类型及类型转换|C语言中的整数类型及类型转换]]、[[hot]]、[[log]]
+- Subject: 计算机组成原理·数据的表示和运算
+- Key exam value: 将 C 语言整型规则与机器级位操作统一起来，补齐整型提升、混合类型转换、零扩展/符号扩展、位截断、移位和浮点转换，并修正 2017 真题十进制结果。
+- Next: 继续用第二章真题练习“先判断类型转换，再写机器数，最后解释真值”的三步流程。
 
 ---
 

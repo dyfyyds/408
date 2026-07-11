@@ -2,7 +2,7 @@
 type: meta
 title: "Wiki Index"
 created: 2026-07-02
-updated: 2026-07-10
+updated: 2026-07-11
 tags:
   - meta
   - index
@@ -38,6 +38,7 @@ related:
 |---|---|
 | [[wiki/concepts/_index\|概念索引]] | 按四科浏览 408 概念；计算机组成原理进一步按教材 7 章定位 |
 | [[wiki/concepts/数据结构/算法复杂度分析\|算法复杂度分析]] | 数据结构复杂度题入口 |
+| [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/基本运算部件\|基本运算部件]] | 计组全加器、进位链、标志位与 ALU 题入口 |
 | [[wiki/concepts/计算机组成原理/第3章 存储系统/Cache原理\|Cache原理]] | 计组存储层次与 Cache 题入口 |
 | [[wiki/concepts/计算机网络/TCP协议\|TCP 协议]] | 计网传输层题入口 |
 
