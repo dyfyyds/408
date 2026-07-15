@@ -10,10 +10,10 @@ aliases:
   - 主存容量扩展
   - 存储芯片扩展
 created: 2026-07-07
-updated: 2026-07-10
+updated: 2026-07-14
 tags:
   - concept
-  - 408
+  - "408"
   - 计算机组成原理
   - 存储系统
 status: developing

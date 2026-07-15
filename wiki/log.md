@@ -1,7 +1,7 @@
 ---
 type: meta
 title: "Operation Log"
-updated: 2026-07-11
+updated: 2026-07-15
 tags:
   - meta
   - log
@@ -18,6 +18,92 @@ related:
 Navigation: [[index]] | [[hot]] | [[overview]]
 
 Append-only. New entries go at the TOP. Never edit past entries.
+
+---
+
+## 2026-07-15 supplement | 2021/2022 统考 IEEE 754 真题
+
+- Source: `.raw/408/计算机组成原理/2021年IEEE754精确表示真题.png`、`.raw/408/计算机组成原理/2022年IEEE754单精度转换真题.png`
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/浮点数的表示|浮点数的表示]]、[[hot]]
+- Subject: 计算机组成原理·数据的表示和运算
+- Content: 补充 2021 年 IEEE 754 精确表示判断题和 2022 年 $-0.4375$ 转 IEEE 754 单精度题。
+- Key exam value: 建立“有限二进制小数判定”和“小数规格化 → 阶码偏置 → 尾数字段拼接”的做题路径。
+- Next: 可继续补充 2023、2025 统考 IEEE 754 转换题。
+
+---
+
+## 2026-07-15 supplement | 教材 IEEE 754 浮点数转换例题
+
+- Source: 教材第 2 章考点追踪例 2.5、例 2.6
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/浮点数的表示|浮点数的表示]]、[[hot]]
+- Subject: 计算机组成原理·数据的表示和运算
+- Content: 补充 IEEE 754 隐藏位、偏置值、规格化单/双精度真值公式、阶码可用范围，以及教材例 2.5 十进制 $-8.25$ 转 IEEE 754 单精度和例 2.6 `C6400000H` 还原真值。
+- Key exam value: 建立“符号位 → 阶码偏置 → 隐藏位尾数 → 十六进制拼接/还原”的 IEEE 754 解题模板。
+- Next: 可继续补充 2011、2013、2020、2022、2023、2025 统考浮点转换真题。
+
+---
+
+## 2026-07-15 supplement | 2010/2014 统考补码溢出判断真题
+
+- Source: `.raw/408/计算机组成原理/2010-2014年补码溢出判断真题.png`
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/补码溢出判断|补码溢出判断]]、[[hot]]
+- Subject: 计算机组成原理·数据的表示和运算
+- Content: 补充 2010 年 8 位补码乘法溢出判断和 2014 年表达式溢出判断，并给出真值范围法、快速估算法和符号位法。
+- Key exam value: 强化“先写补码范围，再看真实结果是否越界”的溢出判断主线。
+- Next: 可继续补充进位异或法与符号位法的同题互证。
+
+---
+
+## 2026-07-15 supplement | 2009/2018 统考定点数运算真题
+
+- Source: `.raw/408/计算机组成原理/2009年C语言整型提升真题.png`、`.raw/408/计算机组成原理/2018年补码减法真题.png`
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/定点数运算|定点数运算]]、[[hot]]
+- Subject: 计算机组成原理·数据的表示和运算
+- Content: 补充 2009 年 `short + int` 整型提升题和 2018 年 32 位补码减法题；每题给出多种解法。
+- Key exam value: 强化“源类型决定扩展方式”和“补码减法可转化为加法/模运算”的选择题判断链路。
+- Next: 可继续补充 `unsigned` 混合运算、减法溢出标志位和 `CF/OF` 对比题。
+
+---
+
+## 2026-07-14 supplement | 2013 统考定点数运算真题
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/定点数运算|定点数运算]] and [[hot]]
+- Source: `.raw/408/计算机组成原理/2013年定点数运算真题.png`
+- Process: $[x]_{补}=1\ 1110100$ gives $x=-12$; $[y]_{补}=1\ 0110000$ gives $y=-80$; therefore $z=2x+y/2=-24-40=-64$.
+- Methods: decimal restoration, sign-extension plus shift verification, and range judgment. The 8-bit complement is `11000000`; final answer: A.
+
+## 2026-07-14 supplement | 2018 统考移位真题
+
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/定点数运算|定点数运算]]、[[hot]]
+- Content: 补充机器数 `1101 1000` 逻辑右移和算术右移的逐位过程、补位规则、真值复核和选项判断。
+- Answer: 逻辑右移为 `0110 1100`，算术右移为 `1110 1100`，对应选项 B。
+
+---
+
+## 2026-07-13 supplement | 定积分理论结论与手写题过程
+
+- Source: `.raw/数学/43.jpg` 至 `.raw/数学/50.jpg`（定积分手写练习与结论补充）
+- Updated: [[wiki/数学/定积分的性质与中值定理|定积分的性质与中值定理]]、[[wiki/数学/定积分的计算|定积分的计算]]、[[wiki/数学/定积分典型题|定积分典型题]]、[[wiki/数学/_index|数学索引]]、[[hot]]
+- Content: 补充对称区间拆分、区间反射平均化、带权反射、三角函数区间变换和周期积分的理论证明；新增换元、分部、绝对值、三角积分、周期和变限极限的完整过程。
+- Correction: 明确 `f(cos x)` 在 $[0,\pi]$ 上不能无条件替换为 `f(|cos x|)`，并补充 $(x^2)^{3/2}=|x|^3$、$\sqrt{\cos^2x}=|\cos x|$ 的易错说明。
+
+---
+
+## 2026-07-13 supplement | 定点数的移位运算
+
+- Source: 王道《计算机组成原理》教材第 2.2.2 节（教材 PDF 第 47 页）、`.raw/408/计算机组成原理/第二章 数据的表示和运算.pdf`、`.raw/408/计算机组成原理/计算机组成原理第二章.xmind`
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/定点数运算|定点数运算]]、[[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/_index|第2章概念索引]]、[[wiki/408专业课/计算机组成原理/数据的表示和运算|数据的表示和运算]]、[[hot]]
+- Content: 补齐逻辑左移、逻辑右移、算术左移、算术右移、循环移位辨析、补码负数右移、`CF/OF`、溢出和精度损失。
+- Tips: 新增“表示范围判断”和“被舍去数字判断”两种移位溢出方法，并用 4 位补码 `0101`、`1101` 左移例题说明。
+- Key examples: `0001 << 1 = 0010`、`0001 >> 1 = 0000`、4 位补码 `1101` 算术右移为 `1110`，逻辑右移为 `0110`。
+
+---
+
+## 2026-07-13 supplement | ALU 概念与教材结构图
+
+- Source: `.raw/408/教材PDF/27王道《计算机组成原理》高清带书签.pdf`、`.raw/408/计算机组成原理/第二章 数据的表示和运算.pdf`、`.raw/408/计算机组成原理/计算机组成原理第二章.xmind`
+- Updated: [[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/算术逻辑单元|算术逻辑单元]]、[[wiki/concepts/计算机组成原理/第2章 数据的表示和运算/基本运算部件|基本运算部件]]、[[hot]]
+- Added: `wiki/resources/计算机组成原理/基本运算部件/ALU_basic_structure.png`、`ALU_one_bit_structure.png`
+- Content: 补齐 ALU 总体结构、一位 ALU 的逻辑门/全加器/MUX、`ALUOp` 编码、加减法实现和 `ZF/SF/CF/OF` 标志位判断。
 
 ---
 

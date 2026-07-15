@@ -11,10 +11,10 @@ aliases:
   - IO端口
   - I/O端口编址
 created: 2026-07-07
-updated: 2026-07-10
+updated: 2026-07-14
 tags:
   - concept
-  - 408
+  - "408"
   - 计算机组成原理
   - IO
 status: developing

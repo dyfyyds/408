@@ -9,10 +9,10 @@ aliases:
   - 快速重传
   - 快速恢复
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-14
 tags:
   - concept
-  - 408
+  - "408"
   - 计算机网络
 status: developing
 related:

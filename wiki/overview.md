@@ -2,11 +2,11 @@
 type: overview
 title: "408 考研复习总览"
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-14
 tags:
   - overview
   - 考研
-  - 408
+  - "408"
 status: developing
 related:
   - "[[index]]"

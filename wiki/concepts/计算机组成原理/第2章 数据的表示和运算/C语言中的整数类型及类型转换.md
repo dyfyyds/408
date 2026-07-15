@@ -9,10 +9,10 @@ aliases:
   - C语言整型转换
   - 整数类型转换
 created: 2026-07-10
-updated: 2026-07-11
+updated: 2026-07-14
 tags:
   - concept
-  - 408
+  - "408"
   - 计算机组成原理
   - 数据表示
   - C语言

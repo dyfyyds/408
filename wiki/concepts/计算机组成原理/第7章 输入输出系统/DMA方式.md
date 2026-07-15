@@ -10,10 +10,10 @@ aliases:
   - DMA
   - 直接存储器存取
 created: 2026-07-07
-updated: 2026-07-10
+updated: 2026-07-14
 tags:
   - concept
-  - 408
+  - "408"
   - 计算机组成原理
   - IO
 status: developing

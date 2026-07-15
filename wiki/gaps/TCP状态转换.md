@@ -2,10 +2,10 @@
 type: gap
 title: "TCP状态转换"
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-14
 tags:
   - gap
-  - 408
+  - "408"
   - 计算机网络
 status: developing
 related:

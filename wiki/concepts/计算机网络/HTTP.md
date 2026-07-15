@@ -6,10 +6,10 @@ domain: "计算机网络"
 aliases:
   - 超文本传输协议
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-14
 tags:
   - concept
-  - 408
+  - "408"
   - 计算机网络
 status: developing
 related:

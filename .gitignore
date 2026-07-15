@@ -33,6 +33,24 @@ Thumbs.db
 *.tmp
 *.log
 
+# 忽略 C/C++ / CMake 构建产物
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+*.a
+
+# 忽略数据结构练习的本地构建目录
+wiki/408专业课/数据结构/链表/build/
+wiki/408专业课/数据结构/链表/.vscode/
+
 # 忽略嵌套的 git 仓库（如 obsidian-skills）
 .claude/skills/obsidian-skills/
 
