@@ -10,7 +10,7 @@ tags:
 status: developing
 related:
   - "[[Cache原理]]"
-  - "[[存储器层次结构]]"
+  - "[[存储器]]"
 sources:
   - ".raw/408/选择题做题本/27王道《计组》选择题做题本【无间隔】2.24.pdf"
 ---
