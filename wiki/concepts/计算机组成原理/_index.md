@@ -2,7 +2,7 @@
 type: meta
 title: "计算机组成原理概念索引"
 created: 2026-07-05
-updated: 2026-07-11
+updated: 2026-07-20
 tags:
   - meta
   - index
@@ -12,6 +12,8 @@ status: developing
 parent: "[[wiki/concepts/_index|概念索引]]"
 related:
   - "[[wiki/408专业课/计算机组成原理/_index|计算机组成原理索引]]"
+sources:
+  - "[[.raw/408/教材PDF/27王道《计算机组成原理》高清带书签.pdf|27王道《计算机组成原理》教材 PDF]]"
 ---
 
 # 计算机组成原理概念索引

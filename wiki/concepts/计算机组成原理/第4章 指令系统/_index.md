@@ -2,7 +2,7 @@
 type: meta
 title: "第4章 指令系统概念索引"
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-20
 tags:
   - meta
   - index
@@ -14,6 +14,8 @@ related:
   - "[[wiki/408专业课/计算机组成原理/指令系统|指令系统章节入口]]"
   - "[[wiki/concepts/计算机组成原理/第3章 存储系统/_index|第3章 存储系统]]"
   - "[[wiki/concepts/计算机组成原理/第5章 中央处理器/_index|第5章 中央处理器]]"
+sources:
+  - "[[.raw/408/教材PDF/27王道《计算机组成原理》高清带书签.pdf|27王道《计算机组成原理》教材 PDF]]"
 ---
 
 # 第4章 指令系统
